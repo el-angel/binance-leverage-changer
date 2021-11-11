@@ -1,0 +1,17 @@
+{
+  "name": "changelev",
+  "version": "1.0.0",
+  "description": "change leverage for binance",
+  "main": "index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./index.ts"
+  },
+  "dependencies": {
+    "@types/node": "^16.11.7",
+    "binance-api-node": "^0.11.24",
+    "dotenv": "^10.0.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  }
+}

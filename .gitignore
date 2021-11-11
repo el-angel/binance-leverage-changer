@@ -1,0 +1,11 @@
+node_modules/**/*
+npm-debug.*
+.idea/
+.DS_Store
+yarn-error.log
+/coverage
+.vscode/*
+dist/
+node_modules/
+npm-debug.log
+yarn-error.log
