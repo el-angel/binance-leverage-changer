@@ -4,7 +4,7 @@ import client from 'binance-api-node';
 const api = process.env.API_KEY;
 const secret = process.env.SECRET_KEY;
 
-const useLeverage = process.env.LEVERAGE;
+const useLeverage = process.env.LEVERAGE as any;
 
 const binance = client({
     apiKey: api,
